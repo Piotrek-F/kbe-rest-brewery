@@ -1,4 +1,4 @@
-FROM openjdk:21-ea-slim
+FROM --platform=linux/amd64 eclipse-temurin:21-jre-jammy
 
 ENV JAVA_OPTS " -Xms512m -Xmx512m -Djava.security.egd=file:/dev/./urandom"
 
