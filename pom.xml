@@ -27,7 +27,7 @@
     <properties>
         <java.version>11</java.version>
         <mapstruct.version>1.4.2.Final</mapstruct.version>
-        <org.lombok.version>1.18.30</org.lombok.version>
+        <org.lombok.version>1.18.40</org.lombok.version>
     </properties>
 
     <dependencies>
@@ -115,6 +115,10 @@
                             </build>
                         </image>
                     </images>
+                    <authConfig>
+                        <username>pfsadlowski</username>
+                        <password><!-- Paste the password for DockerHub here --></password>
+                    </authConfig>
                 </configuration>
             </plugin>
             <plugin>
