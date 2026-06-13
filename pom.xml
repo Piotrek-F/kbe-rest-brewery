@@ -117,7 +117,7 @@
                     </images>
                     <authConfig>
                         <username>pfsadlowski</username>
-                        <password><!-- Paste the password for DockerHub here --></password>
+                        <password><!-- todo: paste the password for DockerHub here --></password>
                     </authConfig>
                 </configuration>
             </plugin>
